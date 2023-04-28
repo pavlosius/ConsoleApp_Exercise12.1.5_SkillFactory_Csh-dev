@@ -1,6 +1,6 @@
 ﻿using ConsoleApp_Exercise12._1._5_SkillFactory_Csh_dev;
 
-User[] users = new User[]
+List<User> users = new List<User>
 {
     new User { Login="ali123", Name = "Alice", IsPremium = false },
     new User { Login="bibi98", Name = "Bob", IsPremium = true },
